@@ -1,0 +1,61 @@
+import java.awt.*;
+public class practice {
+    public static void main(String[] args) {
+        String po="";
+        System.out.println(po);
+        System.out.println("thats great");
+        double pi=3.14;
+        boolean isadult=true;
+        System.out.println(pi);
+        System.out.println(isadult);
+        byte x=126;
+        System.out.println(x);
+        int am=1_000_000_003;
+        System.out.println(am);
+        double am1=1_000_000_003.008;
+        System.out.println(am1);
+        int n=0;
+        System.out.println(n++);
+        System.out.println(n);
+        int n1=0;
+        System.out.println(++n1);
+        int n2=0;
+        System.out.println(n2--);
+        System.out.println(n2);
+        int n3=0;
+        System.out.println(--n3);
+        int v=2;
+        System.out.println(v);
+        v+=5;
+        System.out.println(v);
+        v-=5;
+        System.out.println(v);
+        v*=2;
+        System.out.println(v);
+        v/=2;
+        System.out.println(v);
+        v%=2;
+        System.out.println(v);
+        v^=2;
+        System.out.println(v);
+        String m="Hello";
+        String s="World";
+        String d=m+s;
+        System.out.println(d);
+        System.out.println(d.toLowerCase());
+        System.out.println(d.toUpperCase());
+        System.out.println(d.substring(3,5));
+        System.out.println(d.isEmpty());
+        System.out.println(" ".isEmpty());
+        System.out.println(" ".isBlank());
+        System.out.println("  v b n   ");
+        System.out.println("    v b n   ".trim());
+        int age=21;
+        Point pointA=new Point(10,10);
+        System.out.println("pointA= "+pointA);
+        pointA.move(10,11);
+        System.out.println("pointA= "+pointA);
+        System.out.println("");
+    }
+}
+
